@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Onliner">
+    <parameter name="Producer"  value="Samsung"/>
+    <parameter name="MaxPrice"  value="1500"/>
+    <parameter name="MinDiagonal"  value='40"'/>
+    <parameter name="MaxDiagonal"  value='50"'/>
+    <parameter name="Resolution"  value="1920x1080 (Full HD)"/>
+    <test name="Test Catalog Filtering">
+        <classes>
+            <class name="onliner.tests.TestCatalogFiltering"/>
+        </classes>
+    </test>
+</suite>
